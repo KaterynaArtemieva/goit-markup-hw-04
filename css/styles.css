@@ -34,7 +34,7 @@ p {
 .no-decor {
   text-decoration: none;
 }
-.no-style-type {
+.list {
   list-style-type: none;
 }
 /* Шапка */
@@ -112,7 +112,7 @@ p {
 .current {
   color: var(--accent-color);
 }
-.social-link {
+.contact-link {
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -123,19 +123,25 @@ p {
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
-.social-item:first-child {
+.contact-item:first-child {
   margin-right: 20px;
 }
 
-.social-link:hover {
+.contact-link:hover {
   color: var(--accent-color);
 }
-.social-link:focus {
+.contact-link:focus {
   color: var(--accent-color);
 }
 /* Герой */
 .hero {
   background-color: var(--main-color);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-bkg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  max-width: 1440px;
   padding-bottom: 192px;
   padding-top: 192px;
 }
@@ -184,6 +190,12 @@ p {
 .dignity-item:last-child {
   margin-right: 0;
 }
+.dignity-icon {
+  background: #F4F4FD;
+border-radius: 4px;
+padding: 24px 100px;
+margin-bottom: 8px;
+}
 .subtitle {
   margin-bottom: 8px;
   font-weight: 600;
@@ -231,7 +243,7 @@ p {
 .team-item {
   margin-right: 24px;
   text-align: center;
-  padding-bottom: 32px;
+  padding-bottom: 36px;
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -246,6 +258,32 @@ p {
 .team-item > h3 {
   margin-bottom: 8px;
 }
+.team-item > p {
+  margin-bottom: 12px;
+}
+.social {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.social-list {
+  display: flex;
+}
+.social-item {
+  margin-right: 24px;
+  width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: var(--accent-color);
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+.social-icon {
+
+}
+.social-link {
+text-align: center;}
+
 /* Футер */
 .footer {
   background-color: var(--main-color);
