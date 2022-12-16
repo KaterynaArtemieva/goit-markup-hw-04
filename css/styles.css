@@ -294,6 +294,7 @@ a {
   fill: var(--cloud-color);
 }
 .social-link {
+  padding: 12px;
 }
 /* Клиенты */
 .client {
